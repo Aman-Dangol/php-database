@@ -23,7 +23,13 @@
         $sql ="SELECT * FROM urlshorten where id ='$urlId' ";
       $res = mysqli_query($conn,$sql); 
       $rows = mysqli_fetch_all($res, MYSQLI_ASSOC);
-      var_dump($rows[0]['long_url']);
+      $link = $rows[0]['long_url'];
+      $linkId = $rows[0]['id'];
+      echo "<pre>";
+      echo "</pre>";
+      // echo ();
+
+      echo("<a href='$link'>localHost/$linkId</a>")
       ?>
       <button>sumit</button>
     </form>
