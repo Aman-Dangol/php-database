@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>expense tracker</title>
 </head>
+
+
 <body>
   <form action="/add_expense.php">
   <?php
@@ -23,11 +25,13 @@
       }
   echo "</Select>";
   ?>
-  <label>name:</label> <input type="text" name="exp_name"></input>
-  <label>name:</label> <input type="amount" name="amount"></input>
-  <label>name:</label> <input type="date" name="date"></input>
+  <label>title:</label> <input type="text" name="exp_name"></input>
+  <label>amount:</label> <input type="amount" name="amount"></input>
+  <label>datre:</label> <input type="date" name="date"></input>
   <button>add expense</button>
   </form>
+
+  <button><a href="show_exp.php">show expenses</a></button>
 
 </body>
 </html>
