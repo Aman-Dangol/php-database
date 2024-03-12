@@ -31,7 +31,7 @@
   <button>add expense</button>
   </form>
 
-  <button><a href="show_exp.php">show expenses</a></button>
+  <a href="./show_exp.php"><button>show expenses</button></a>
 
 </body>
 </html>

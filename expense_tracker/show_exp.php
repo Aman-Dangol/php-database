@@ -25,7 +25,6 @@ $rows = mysqli_fetch_all($res,MYSQLI_ASSOC);
   }
 </style>
 <body>
-  
   <table>
     <tr>
       <th>title</th>
